@@ -36,7 +36,6 @@ import com.example.objectorientedprogramming.use_case.ToplaUseCase
 
 @Composable
 fun CalculateScreen(navController: NavController) {
-    val vm : CalculateScreenViewModel = viewModel()
     
     val sayi1 = remember { mutableStateOf("") }
     val sayi2 = remember { mutableStateOf("") }
